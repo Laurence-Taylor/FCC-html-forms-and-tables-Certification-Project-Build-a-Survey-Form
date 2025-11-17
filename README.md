@@ -6,7 +6,7 @@ Objective: Build an app that is functionally similar to https://survey-form.free
 
 User Stories:
 
-You should have a page title in an h1 element with an id of title
+- You should have a page title in an h1 element with an id of title
 
 You should have a short explanation in a p element with an id of description
 
