@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>First Test Responsive Web Desing</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title" name="title">Taylor's Application Form</h1>
+      <p id="description" name="description">Application for the position of Programmer in our team.</>
+      <!--Form -->   
+      <form id="survey-form" name="survey-form">
+        <fieldset>
+          <label id="name-label" for ="name" Class="personal-label"> Aplicant's Full Name: <input id="name" name="name" type="text" placeholder="Please enter your Full Name." required /></label>
+          <label id="email-label" for ="email" Class="personal-label"> E. Mail: <input id="email" name="email" type="email" placeholder="Please enter your E.Mail." required /></label>
+          <label id="number-label" Class="personal-label"> Age:<input id="number" name="age" type ="number" min="18" max="110" placeholder="18" required /></label>
+        </fieldset>
+        <!--FiledSet Sex -->
+        <fieldset>
+          <label Class="personal-label">Sex:</label>
+          <label id="male-label"><input id="male" type="radio" value="male" class="inline" name="sex" checked />Male</label>
+          <label id="female-label"><input id="female" type="radio" value="female" class="inline" name="sex" />Female</label>
+        </fieldset>
+        <!--FiledSet Experience and Education -->
+        <fieldset>
+          <label id="dropdown-label" for = "dropdown" Class="personal-label"> What's your level of education?
+            <select id="dropdown" name="education" required>
+              <option value="">(Select one option...)</option>
+              <option value="1">Doctorate</option>
+              <option value="2">Professional Degree</option>
+              <option value="3">Bachelor’s Degree</option>
+              <option value="4">Three Years College</option>
+              <option value="5">Two Years College</option>
+              <option value="6">Some College</option>
+              <option value="7">High School Graduate</option>
+            </select>
+          </label>
+        </fieldset>
+        <!--FiledSet Prefer language Programing -->
+        <fieldset>
+          <label id="language-label" Class="personal-label">Select the language or languages with experience.</label>
+          <label id="c#-label" for="c#"><input id="c#" name="c#" value="c#" type="checkbox" class="inline" /> C#</label>
+          <label id="c++-label" for="c++"><input id="c++" name="c++" value="c++" type="checkbox" class="inline" /> C++</label>
+          <label id="javascript-label" for="javascript"><input id="javascript" name="javascript" value="javascript" type="checkbox" class="inline" /> Javascript</label>
+          <label id="python-label" for="python"><input id="python" name="python" value="python" type="checkbox" class="inline" /> Python</label>
+          <label id="html-label" for="html" ><input id="html" name="html" value="html" type="checkbox" class="inline" /> HTML</label>
+        </fieldset>
+        <fieldset>
+          <label id="comments-label" Class="personal-label" > Additional Comments: </label>
+          <textarea id="comments" name="comments" rows="5" cols="60" placeholder="If you have some other comments, please write here..." ></textarea> 
+          <button id="submit" type="submit" > Send Application </button>
+        </fieldset>
+      </form>
+    </body>
+  </html>

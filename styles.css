@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color:beige;
+  }
+  
+form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: bisque;
+    border-radius: 15px;
+  }
+
+  fieldset {
+    border: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    max-width: 500px;
+  }
+p {
+    font-weight: bolder;
+}
+  h1, p {
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+  }
+  
+  input, button,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2.2em;
+    border-radius: 10px;
+  }
+  
+  input[id="number"] {
+    width: 30px;
+  }
+.personal-label{
+    font-weight: bold;
+}
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  textarea {
+    max-width: 445px;
+    min-width: 300px;
+    max-height: 15em;
+    min-height: 5em;
+  }
